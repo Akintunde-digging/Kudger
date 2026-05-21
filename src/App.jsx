@@ -10,6 +10,7 @@ import ForBusiness from './components/forbusiness/forbusiness'
 import TrustedAndSecure from './components/trustedandsecure/trustedandsecure'
 import FAQ from './components/faq/faq'
 import Ready from './components/ready/ready'
+import Footer from './components/footer/footer'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
     <TrustedAndSecure/>
     <FAQ/>
     <Ready/>
+    <Footer/>
     </>
   )
 }
