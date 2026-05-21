@@ -1,0 +1,110 @@
+.whyChooseKudgerSection{
+    padding-inline: 70px;
+    position: relative;
+}
+.whyChooseKudgerSection::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.95;
+    z-index: 1;
+    background-color: #0A2B32;
+}
+.whyChooseKudgerSection .reasonAndImg{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    gap: 50px;
+}
+.reasonAndImg .reason{
+    display: flex;
+    flex-direction: column;
+    flex: 1.1;
+    margin-top: 75px;
+}
+.reason h1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #16A34A;
+    width: 250px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+.reason h1 .whyChooseItIcon{
+    display: block;
+    font-size: 18px;
+    color: #03D26F;
+}
+.reason h2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    max-width: 550px;
+    margin-top: 17px;
+    line-height: 56px;
+}
+.reason .allReasons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 0;
+    max-width: 680px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.allReasons .eachReasons{
+    display: flex;
+    flex-direction: column;
+    max-width: 190px;
+}
+.eachReasons h3{
+    font-family: "Bricolage Grotesque", sans-serif;;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 8px;
+    line-height: 24px;
+
+}
+.eachReasons h3 .reasonIcons{
+    color: #16A34A;
+    font-size: 22px;
+}
+.eachReasons p{
+    font-family: "Geist", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+}
+.reasonAndImg .whyImg{
+    position: relative;
+    flex: 0.65;
+    width: 450px;
+    height: 488px;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-block: 80px;
+}
+.reasonAndImg .whyImg::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #EAFFF0;
+    opacity: 0.88;
+    z-index: 1;
+}
+.whyImg img{
+    position: relative;
+    width: 400px;
+    margin-left: 8px;
+    z-index: 2;
+}

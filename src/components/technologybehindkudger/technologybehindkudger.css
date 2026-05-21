@@ -1,0 +1,110 @@
+.technologyBehindKudgerSection{
+    padding-inline: 70px;
+    padding-block: 70px 0;
+    background-color: #F3FDFF;
+}
+.technologyBehindKudgerSection h1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #16A34A;
+    width: 255px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+.technologyBehindKudgerSection h1 .technologyIcon{
+    display: block;
+    font-size: 18px;
+    color: #03D26F;
+}
+.technologyBehindKudgerSection h2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #111827;
+    max-width: 700px;
+    margin-top: 17px;
+    line-height: 56px;
+}
+.technologyBehindKudgerSection .technologies{
+    display: flex;
+    gap: 15px;
+    margin-top: 57px;
+}
+.technologies .eachTech{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.eachTech .imgDiv{
+    overflow: hidden;
+    border-radius: 20px;
+    width: 350px;
+    height: 230px;
+    margin: 6px;
+}
+.imgDiv img{
+    width: 100%;
+}
+.eachTech .noBGImagesDiv{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 350px;
+    height: 230px;
+    margin: 6px;
+}
+.noBGImagesDiv img{
+    position: relative;
+    width: 240px;
+    margin-left: 50px;
+    z-index: 2;
+}
+.eachTech .noBGImagesDiv::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #12913D;
+    opacity: 0.7;
+    z-index: 1;
+}
+.eachTech .eachTechText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-block: 30px;
+    padding-inline: 25px;
+    gap: 6px;
+    flex: 1;
+}
+.eachTech .eachTechText::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #fff;
+    opacity: 0.95;
+    z-index: 1;
+}
+.eachTechText h3{
+    position: relative;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    z-index: 2;
+}
+.eachTechText p{
+    position: relative;
+    font-family: "Geist", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 280px;
+    z-index: 3;
+}

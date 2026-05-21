@@ -1,0 +1,95 @@
+.whoIsItForsection{
+    padding-inline: 70px;
+    padding-block: 100px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.whoIsItForsection h1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #16A34A;
+    width: 250px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+.whoIsItForsection h1 .whoIsItForIcon{
+    display: block;
+    font-size: 18px;
+    color: #03D26F;
+}
+.whoIsItForsection h2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #111827;
+    max-width: 550px;
+    margin-top: 17px;
+    line-height: 56px;
+}
+.whoIsItForsection .farmersToWomen{
+    display: flex;
+    gap: 10px;
+    margin-top: 130px;
+    width: 100%;
+    align-items: stretch;
+}
+.farmersToWomen .eachFarmersToWomen{
+    position: relative;
+    padding-block: 50px 15px;
+    padding-inline: 15px;
+    border: 1px dashed #000;
+    border-radius: 200px 200px 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    gap: 8px;
+}
+.farmersToWomen .eachFarmersToWomen::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #EAFFF0;
+    opacity: 0.95;
+    z-index: 1;
+}
+.eachFarmersToWomen h3{
+    position: relative;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #111827;
+    z-index: 2;
+    margin-top: 50px;
+}
+.eachFarmersToWomen p{
+    position: relative;
+    font-family: "Geist", sans-serif;
+    font-size: 18px;
+    color: #1A1A1A;
+    z-index: 3;
+    line-height: 26px;
+}
+.imgAndEach{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.imgAndEach img{
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    padding-top: 50px;
+    width: 100px;
+}

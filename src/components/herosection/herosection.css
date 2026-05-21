@@ -1,0 +1,94 @@
+.heroSection{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-block: 80px 60px;
+}
+.textAndButtons{
+    flex: 1.1;
+    padding-left: 70px;
+}
+.textAndButtons .text{
+    display: flex;
+    flex-direction: column;
+}
+.textAndButtons h1{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 20px;
+}
+.textAndButtons h1 span{
+    color: #03D26F;
+}
+.textAndButtons p{
+    font-family: "Geist", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1A1A1A;
+    margin-top: 25px;
+    max-width: 450px;
+}
+.textAndButtons .buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.buttons button{
+    color: #fff;
+    background-color: #0A2B32;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 12px;
+}
+.slider {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+ 
+.sliderTrack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 450px;
+  width: 100%;
+}
+ 
+.slide {
+  border-radius: 12px;
+  overflow: hidden;
+  transition:
+    flex 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.6s ease,
+    transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+ 
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.slide.side img{
+    object-position: 55% center;
+}
+.slide.side {
+  flex: 1;
+  height: 100%;
+}
+ 
+.slide.active {
+  flex: 3.6;
+  height: 100%;
+  opacity: 1;
+}
+
+

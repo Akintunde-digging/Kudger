@@ -1,0 +1,56 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+nav{
+    display: flex;
+    font-family: "Geist", sans-serif;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+    gap: 2rem;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 0.5px solid #DADADA;
+}
+nav img{
+    height: auto;
+    padding-left: 70px;
+    
+}
+.listAndButton{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-right: 40px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    flex-shrink: 1;
+}
+nav ul li{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+nav ul a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+nav button{
+    padding: 12px 58px;
+    background-color: #0A2B32;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+}
